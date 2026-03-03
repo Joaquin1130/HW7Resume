@@ -1,0 +1,174 @@
+/* Color Palette
+# - #0B1320  (Navy)
+# - #1C2541  (Deep Blue)
+# - #3A506B  (Slate)
+# - #5BC0BE  (Teal)
+# - #F4F7FA  (Off White)
+*/
+
+/* Global styles 
+------------------------------------*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #0B1320;
+    background: #F4F7FA;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Typography */
+h1, h2, h3 {
+    font-family: "Montserrat", Arial, sans-serif;
+    margin: 0 0 0.5rem 0;
+}
+
+h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+p {
+    margin: 0 0 1rem 0;
+}
+
+main {
+    max-width: 950px; /* match content-wrapper */
+    margin: 0 auto;
+    padding: 1.25rem;
+}
+
+/* Header & Footer 
+------------------------------------*/
+.site-header {
+    background: #1C2541;
+    color: #F4F7FA;
+    padding: 3rem 1.25rem; /* increased to prevent clipping/crowding */
+    text-align: center;
+}
+
+/* Clear floats inside header so it doesn't collapse */
+.site-header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Profile photo */
+.profile-photo {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #5BC0BE;
+    margin-bottom: 1rem;
+}
+
+.site-header h2 {
+    font-weight: 600;
+    color: #5BC0BE;
+    margin-bottom: 1rem;
+}
+
+.site-header p {
+    max-width: 800px;
+    margin: 0.5rem auto 0;
+    color: #E6EDF5; /* brighter so summary is readable */
+    font-size: 16px;
+}
+
+.site-footer {
+    background: #0B1320;
+    color: #F4F7FA;
+    padding: 1.5rem 1.25rem;
+    text-align: center;
+}
+
+.contact-links {
+    margin: 0.75rem 0 1rem;
+}
+
+.contact-links a {
+    color: #5BC0BE;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    font-weight: 500;
+}
+
+.contact-links a:hover {
+    text-decoration: underline;
+}
+
+/* Work Experience
+------------------------------------*/
+.work {
+    background: #FFFFFF;
+    border-left: 6px solid #5BC0BE;
+    padding: 1.25rem;
+    border-radius: 10px;
+    margin-top: 1.25rem;
+}
+
+.work ul {
+    margin: 0.5rem 0 0 1.25rem;
+}
+
+.work li {
+    margin-bottom: 0.5rem;
+}
+
+/* Education
+------------------------------------*/
+.education {
+    background: #EAF1F6;
+    border-left: 6px solid #3A506B;
+    padding: 1.25rem;
+    border-radius: 10px;
+    margin-top: 1.25rem;
+}
+
+/* Content wrapper (HW7) */
+.content-wrapper {
+    width: 950px;
+    margin: 0 auto;
+}
+
+/* Two-column layout */
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 67%;
+    float: left;
+    min-height: 225px;
+}
+
+/* Clearfix for job items */
+.job-item::after {
+    content: "";
+    display: table;
+    clear: both;
+}
