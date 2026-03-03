@@ -10,4 +10,4 @@ After enabling GitHub Pages in your repo settings, paste your live site link her
 - `css/styles.css` - Styling + color palette + Google Fonts
 - `images/` - Site images
 
-#https://github.com/Joaquin1130/HW7Resume
+https://github.com/Joaquin1130/HW7Resume
